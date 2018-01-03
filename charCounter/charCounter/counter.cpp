@@ -1,8 +1,7 @@
 #include "stdafx.h"
 #include "counter.h"
-#include <fstream>	// file operations
-#include <string>	// char -> string
-
+#include <fstream>
+#include <string>
 counter::counter(char* source)
 {
 	this->source = source;
@@ -10,13 +9,11 @@ counter::counter(char* source)
 		table[i] = 0;
 	}
 }
-
 counter::~counter()
 {
 	delete table;
 	delete source;
 }
-
 void counter::count()
 {
 	std::string fileSource = "input/";
@@ -38,8 +35,7 @@ void counter::saveToFile()
 	std::ofstream outFile(output, std::ios::out);
 	for (int i = 32; i < 127; i++) {
 		outFile << (char)i << " --> " << table[i] << std::endl;
-	}
-	
+	}	
 }
 void counter::operate() 
 {
