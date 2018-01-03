@@ -1,6 +1,6 @@
 #pragma once
-#include <fstream>	// file operations
-#include <string>	// char -> string
+#include <fstream>
+#include <string>
 class counter
 {
 private:
@@ -16,4 +16,3 @@ public:
 	void operate();
 	~counter();
 };
-
