@@ -6,55 +6,18 @@ html = """<html>
 <head><title>Report</title>
 <style>
 body{background:#252525;color:#ACAC11; font-family: 'Trocchi', serif;font-weight: bold;}
-.title{
-    color: khaki;
-    font-family: 'Trocchi', serif;
-    font-size: 48px;
-    font-weight: normal;
-    line-height: 48px;
-    margin: auto;
-}
+.title{color: khaki;font-family: 'Trocchi', serif;font-size: 48px;font-weight: normal;line-height: 48px;margin: auto;}
 .div_table{height:75%;width:75%;margin:auto;overflow:auto;}
-.titleText{
-    
-    color: #c0c0c0;
-    font-family: 'Trocchi', serif;
-    font-size: 32px;
-    font-weight: normal;
-    line-height: 48px;
-    margin: auto;
-    
-    
-}
-.reportTable{
-    margin: auto;
-    background: #333333;
-    border: solid khaki;
-    text-align:center;
-    overflow:auto;
-}
-.reportTable td{
-    border: solid black thin;
-    width: 75px;
-}
-
-table.reportTable > tbody > tr:first-child > td:first-child{
-    background: grey;
-    width:40px;
-}
-
-table.reportTable > tbody > tr > td:first-child, table.reportTable > tbody > tr:first-child{
-    background: green;
-    color:#d0d0d0;
-}table.reportTable td:hover{
-background: silver;
-color: #333333;
-}
+.titleText{color: #c0c0c0;font-family: 'Trocchi', serif;font-size: 32px;font-weight: normal;line-height: 48px;margin: auto;}
+.reportTable{margin: auto;background: #333333;border: solid khaki;text-align:center;overflow:auto;}
+.reportTable td{border: solid black thin;width: 75px;}
+table.reportTable > tbody > tr:first-child > td:first-child{background: grey;width:40px;}
+table.reportTable > tbody > tr > td:first-child, table.reportTable > tbody > tr:first-child{background: green;color:#d0d0d0;}
+table.reportTable td:hover{background: silver;color: #333333;}
 </style>
 </head>
 <body><p align="center" class="title">Characters counter</p><p align="center" class="titleText">Report was generated:<br/> """
 reportFile.write(html + str(currentTime) + """</p> """)
-
 indir = 'output/'
 firstFile = False
 chars = []
@@ -79,7 +42,6 @@ for files in os.walk(indir):
         allCount.append(count)
         count = []
         out.close()
-
 reportFile.write("""</tr>""")
 try:
     chars[0]="Space"
@@ -90,9 +52,5 @@ for x in range(0,len(chars)):
     for y in range(0,len(allCount)):
         reportFile.write("""<td>"""+allCount[y][x]+"""</td>""")
     reportFile.write("""</tr>""")
-
-
 reportFile.write("""</table></div></body></html>""")        
 reportFile.close()
-
-
