@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.12)  3 JAN 2018 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.12)  6 JAN 2018 14:04
 entering extended mode
 **./document.tex
 (document.tex
@@ -572,13 +572,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
-[1
+<LOGO.jpg, id=1, 418.29732pt x 416.48755pt>
+File: LOGO.jpg Graphic file (type jpg)
+ <use LOGO.jpg>
+Package pdftex.def Info: LOGO.jpg used on input line 20.
+(pdftex.def)             Requested size: 215.0023pt x 214.07722pt.
+ [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (document.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./LOGO.jpg>] (document.to
+c
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `document.toc'.
@@ -586,99 +592,108 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2
 
 ]
-<scheme_diagram.jpg, id=13, 383.4325pt x 779.91376pt>
+<scheme_diagram.jpg, id=14, 383.4325pt x 779.91376pt>
 File: scheme_diagram.jpg Graphic file (type jpg)
  <use scheme_diagram.jpg>
-Package pdftex.def Info: scheme_diagram.jpg used on input line 32.
+Package pdftex.def Info: scheme_diagram.jpg used on input line 36.
 (pdftex.def)             Requested size: 215.0023pt x 437.33186pt.
 
 [3
 
-] <batch_code.jpg, id=17, 628.3475pt x 764.8575pt>
+] <batch_code.jpg, id=18, 628.3475pt x 764.8575pt>
 File: batch_code.jpg Graphic file (type jpg)
  <use batch_code.jpg>
-Package pdftex.def Info: batch_code.jpg used on input line 40.
+Package pdftex.def Info: batch_code.jpg used on input line 44.
 (pdftex.def)             Requested size: 387.00153pt x 471.07898pt.
 
-[4 <./scheme_diagram.jpg>] <h_code.png, id=21, 270.00874pt x 365.365pt>
+[4 <./scheme_diagram.jpg>] <h_code.png, id=22, 270.00874pt x 365.365pt>
 File: h_code.png Graphic file (type png)
 
 <use h_code.png>
-Package pdftex.def Info: h_code.png used on input line 50.
-(pdftex.def)             Requested size: 172.00249pt x 232.75125pt.
- <cpp_code.png, id=23, 546.04pt x 883.3pt>
+Package pdftex.def Info: h_code.png used on input line 54.
+(pdftex.def)             Requested size: 150.50095pt x 203.65524pt.
+ <cpp_code.png, id=24, 546.04pt x 883.3pt>
 File: cpp_code.png Graphic file (type png)
  <use cpp_code.png>
-Package pdftex.def Info: cpp_code.png used on input line 56.
-(pdftex.def)             Requested size: 301.0019pt x 486.90823pt.
+Package pdftex.def Info: cpp_code.png used on input line 60.
+(pdftex.def)             Requested size: 279.50365pt x 452.13484pt.
 
-Overfull \hbox (85.9996pt too wide) in paragraph at lines 56--57
+Overfull \hbox (64.50134pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-[5 <./batch_code.jpg>] <python_code.png, id=27, 965.6075pt x 1129.21875pt>
+[5 <./batch_code.jpg>] <python_code.png, id=28, 965.6075pt x 1129.21875pt>
 File: python_code.png Graphic file (type png)
 
 <use python_code.png>
-Package pdftex.def Info: python_code.png used on input line 66.
+Package pdftex.def Info: python_code.png used on input line 71.
 (pdftex.def)             Requested size: 430.00462pt x 502.85399pt.
  [6 <./h_code.png> <./cpp_code.png>]
-<folders.png, id=34, 102.3825pt x 139.27031pt>
+<folders.png, id=35, 102.3825pt x 139.27031pt>
 File: folders.png Graphic file (type png)
  <use folders.png>
-Package pdftex.def Info: folders.png used on input line 74.
+Package pdftex.def Info: folders.png used on input line 79.
 (pdftex.def)             Requested size: 171.99922pt x 233.98526pt.
- [7 <./python_code.png>] <prezentacja_1.png, id=40, 395.97937pt x 270.25969pt>
+ [7 <./python_code.png>] <flowchart.png, id=41, 526.96875pt x 191.71625pt>
+File: flowchart.png Graphic file (type png)
+
+<use flowchart.png>
+Package pdftex.def Info: flowchart.png used on input line 86.
+(pdftex.def)             Requested size: 387.00153pt x 140.80003pt.
+ <prezentacja_1.png, id=42, 395.97937pt x 270.25969pt>
 File: prezentacja_1.png Graphic file (type png)
 
 <use prezentacja_1.png>
-Package pdftex.def Info: prezentacja_1.png used on input line 83.
-(pdftex.def)             Requested size: 129.00269pt x 88.04367pt.
- <prezentacja_2.png, id=41, 395.97937pt x 270.25969pt>
+Package pdftex.def Info: prezentacja_1.png used on input line 93.
+(pdftex.def)             Requested size: 301.00192pt x 205.44072pt.
+ <prezentacja_2.png, id=43, 395.97937pt x 270.25969pt>
 File: prezentacja_2.png Graphic file (type png)
 
 <use prezentacja_2.png>
-Package pdftex.def Info: prezentacja_2.png used on input line 89.
-(pdftex.def)             Requested size: 129.00269pt x 88.04367pt.
- <prezentacja_3.png, id=42, 395.97937pt x 270.25969pt>
+Package pdftex.def Info: prezentacja_2.png used on input line 99.
+(pdftex.def)             Requested size: 301.00192pt x 205.44072pt.
+ [8 <./folders.png> <./flowchart.png>]
+<prezentacja_3.png, id=49, 395.97937pt x 270.25969pt>
 File: prezentacja_3.png Graphic file (type png)
+ <use prezentacja_3.png>
+Package pdftex.def Info: prezentacja_3.png used on input line 105.
+(pdftex.def)             Requested size: 301.00192pt x 205.44072pt.
 
-<use prezentacja_3.png>
-Package pdftex.def Info: prezentacja_3.png used on input line 95.
-(pdftex.def)             Requested size: 129.00269pt x 88.04367pt.
- <report.png, id=43, 1204.5pt x 626.34pt>
+<report.png, id=50, 1204.5pt x 626.34pt>
 File: report.png Graphic file (type png)
-
-<use report.png>
-Package pdftex.def Info: report.png used on input line 102.
+ <use report.png>
+Package pdftex.def Info: report.png used on input line 111.
 (pdftex.def)             Requested size: 430.00462pt x 223.59946pt.
- [8 <./folders.png> <./prezentacja_1.png> <./prezentacja_2.png> <./prezentacja_
-3.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
+ [9 <./prezentacja_1.png> <./prezentacja_2.png>] [10 <./prezentacja_3.png> <./r
+eport.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 121.
 
- (D:\Programs\MikTeX\tex\latex\base\omscmr.fd
+
+(D:\Programs\MikTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
- [9 <./report.png>] (document.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+ [11
+
+] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 4189 strings out of 493323
- 59566 string characters out of 3142973
- 133208 words of memory out of 3000000
- 7663 multiletter control sequences out of 15000+200000
+ 4198 strings out of 493323
+ 59698 string characters out of 3142973
+ 133348 words of memory out of 3000000
+ 7670 multiletter control sequences out of 15000+200000
  10368 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,39p,753b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programs/MikTeX/fonts/enc/dvips/pl/plrm
-.enc}<D:/Programs/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs
-/MikTeX/fonts/type1/public/pl/plbx10.pfb><D:/Programs/MikTeX/fonts/type1/public
-/pl/plbx12.pfb><D:/Programs/MikTeX/fonts/type1/public/pl/plr10.pfb><D:/Programs
-/MikTeX/fonts/type1/public/pl/plr12.pfb><D:/Programs/MikTeX/fonts/type1/public/
-pl/plr17.pfb><D:/Programs/MikTeX/fonts/type1/public/pl/plr9.pfb>
-Output written on document.pdf (9 pages, 298620 bytes).
+{D:/Programs/MikTeX/fonts/enc/dvips/pl/plrm.enc}<D:/Programs/
+MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MikTeX/fonts/type
+1/public/pl/plbx10.pfb><D:/Programs/MikTeX/fonts/type1/public/pl/plbx12.pfb><D:
+/Programs/MikTeX/fonts/type1/public/pl/plr10.pfb><D:/Programs/MikTeX/fonts/type
+1/public/pl/plr12.pfb><D:/Programs/MikTeX/fonts/type1/public/pl/plr17.pfb><D:/P
+rograms/MikTeX/fonts/type1/public/pl/plr9.pfb>
+Output written on document.pdf (11 pages, 1780816 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

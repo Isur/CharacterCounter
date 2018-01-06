@@ -8,20 +8,24 @@
 \usepackage{caption}
 \usepackage{subcaption}
 
-\title{Licznik Znaków}
-\author{Artur Bednarczyk}
+\title{Projekt zaliczeniowy\\Języki Skryptowe\\"Licznik Znaków"}
+\author{Artur Bednarczyk\\Politechnika Śląska\\Wydział Matematyki Stosowanej\\Informatyka, semestr III}
 \date{Styczeń 2018}
 
 \begin{document}
 
 \maketitle
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{LOGO}
+	\label{fig:logo}
+\end{figure}
 \clearpage
 \tableofcontents
 \clearpage
 
 \section{Opis zadania}
 Celem zadania jest utworzenie skryptu systemowego, który będzie pełnił rolę menu. Menu powinno posiadać opcje takie jak utworzenie nowego raportu, utworzenie kopii zapasowej istniejącego raportu, wyjście. Nowy raport będzie generowany poprzez skrypt Python, na podstawie plików wyjściowych utworzonych przez aplikację napisaną w dowolnym języku programowania, która zlicza liczbę wystąpień znaków w plikach tekstowych, które są traktowane jako pliki wejściowe tej aplikacji.
-\section{Model Matematyczny Aplikacji}
 
 \section{Algorytm}
 \subsection{Opis}
@@ -47,19 +51,20 @@ Po uruchomieniu skryptu systemowego ukazuje się menu, którego opcjami są: gen
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=0.8\linewidth]{h_code}
+		\includegraphics[width=0.7\linewidth]{h_code}
 		\caption{.h}
 		\label{fig:sub1}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=1.4\linewidth]{cpp_code}
+		\includegraphics[width=1.3\linewidth]{cpp_code}
 		\caption{.cpp}
 		\label{fig:sub2}
 	\end{subfigure}
 	\caption{Kod C++}
 	\label{fig:test}
 \end{figure}
+Utworzone funkcje counter() oraz saveToFile() są odpowiedzialne odpowiednio za zliczanie znaków oraz zapis wyników do pliku. Liczba wystąpień danego znaku przechowywana jest w tablicy.
 \subsection{Python}
 \begin{figure}[H]
 	\centering
@@ -76,33 +81,37 @@ Po uruchomieniu skryptu systemowego ukazuje się menu, którego opcjami są: gen
 	\label{fig:folders}
 \end{figure}
 W folderze input znajdują się pliki wejściowe, czyli pliki, w których będą zliczane znaki. W folderze output znajdują się wyniki obliczeń. Folder backup zawiera kopie zapasowe raportów, a w folderze report znajduje się ostatni wykonany raport.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{flowchart}
+	\caption{Flowchart}
+	\label{fig:flowchart}
+\end{figure}
 \subsection{Prezentacja wyników}
 \begin{figure}[H]
-\begin{subfigure}{.3\textwidth}
 	\centering
-	\includegraphics[width=1\linewidth]{prezentacja_1}
+	\includegraphics[width=0.7\linewidth]{prezentacja_1}
 	\caption{Menu}
 	\label{fig:p1}
-\end{subfigure}
-\begin{subfigure}{.3\textwidth}
+\end{figure}
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{prezentacja_2}
+	\includegraphics[width=0.7\linewidth]{prezentacja_2}
 	\caption{Nowy raport}
 	\label{fig:p2}
-\end{subfigure}
-\begin{subfigure}{.3\textwidth}
+\end{figure}
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{prezentacja_3}
+	\includegraphics[width=0.7\linewidth]{prezentacja_3}
 	\caption{Kopia zapasowa}
 	\label{fig:p3}
-\end{subfigure}
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{report}
 	\caption{Przykładowy raport}
 	\label{fig:report}
-\end{figure}
+\end{figure}\clearpage
 \section{Testy}
 W ramach testów, były usuwane foldery, pliki wejściowe. Przeprowadzone testy, pozwoliły na zabezpieczenie projektu przed problemami z brakującymi plikami. Gdy użytkownik usunie jakiś folder, zostanie on utworzony podczas działania skryptu.
 \section{Podsumowanie}
